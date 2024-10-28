@@ -47,7 +47,7 @@ export const assets = {
         image:blog_pic_1,
         date:Date.now(),
         category:"Lifestyle",
-        author:"Alex Bennett",
+        author:"Krish Satasiya",
         author_img:profile_icon
     },
     {
@@ -57,7 +57,7 @@ export const assets = {
         image:blog_pic_2,
         date:Date.now(),
         category:"Startup",
-        author:"Alex Bennett",
+        author:"Krish Satasiya",
         author_img:profile_icon
     },
     {
@@ -67,7 +67,7 @@ export const assets = {
         image:blog_pic_3,
         date:Date.now(),
         category:"Technology",
-        author:"Alex Bennett",
+        author:"Krish Satasiya",
         author_img:profile_icon
     },
     {
@@ -77,7 +77,7 @@ export const assets = {
         image:blog_pic_4,
         date:Date.now(),
         category:"Technology",
-        author:"Alex Bennett",
+        author:"Krish Satasiya",
         author_img:profile_icon
     },
     {
@@ -87,7 +87,7 @@ export const assets = {
         image:blog_pic_5,
         date:Date.now(),
         category:"Lifestyle",
-        author:"Alex Bennett",
+        author:"Krish Satasiya",
         author_img:profile_icon
     },
     {
@@ -97,7 +97,7 @@ export const assets = {
         image:blog_pic_6,
         date:Date.now(),
         category:"Startup",
-        author:"Alex Bennett",
+        author:"Krish Satasiya",
         author_img:profile_icon
     },
     {
@@ -107,7 +107,7 @@ export const assets = {
         image:blog_pic_7,
         date:Date.now(),
         category:"Technology",
-        author:"Alex Bennett",
+        author:"Krish Satasiya",
         author_img:profile_icon
     },
     {
@@ -117,7 +117,7 @@ export const assets = {
         image:blog_pic_8,
         date:Date.now(),
         category:"Lifestyle",
-        author:"Alex Bennett",
+        author:"Krish Satasiya",
         author_img:profile_icon
     },
     {
@@ -127,7 +127,7 @@ export const assets = {
         image:blog_pic_9,
         date:Date.now(),
         category:"Startup",
-        author:"Alex Bennett",
+        author:"Krish Satasiya",
         author_img:profile_icon
     },
     {
@@ -137,7 +137,7 @@ export const assets = {
         image:blog_pic_10,
         date:Date.now(),
         category:"Lifestyle",
-        author:"Alex Bennett",
+        author:"Krish Satasiya",
         author_img:profile_icon
     },
     {
@@ -147,7 +147,7 @@ export const assets = {
         image:blog_pic_11,
         date:Date.now(),
         category:"Startup",
-        author:"Alex Bennett",
+        author:"Krish Satasiya",
         author_img:profile_icon
     },
     {
@@ -157,7 +157,7 @@ export const assets = {
         image:blog_pic_12,
         date:Date.now(),
         category:"Technology",
-        author:"Alex Bennett",
+        author:"Krish Satasiya",
         author_img:profile_icon
     },
     {
@@ -167,7 +167,7 @@ export const assets = {
         image:blog_pic_13,
         date:Date.now(),
         category:"Startup",
-        author:"Alex Bennett",
+        author:"Krish Satasiya",
         author_img:profile_icon
     },
     {
@@ -177,7 +177,7 @@ export const assets = {
         image:blog_pic_14,
         date:Date.now(),
         category:"Lifestyle",
-        author:"Alex Bennett",
+        author:"Krish Satasiya",
         author_img:profile_icon
     },
     {
@@ -187,7 +187,7 @@ export const assets = {
         image:blog_pic_15,
         date:Date.now(),
         category:"Technology",
-        author:"Alex Bennett",
+        author:"Krish Satasiya",
         author_img:profile_icon
     },
     {
@@ -197,7 +197,7 @@ export const assets = {
         image:blog_pic_16,
         date:Date.now(),
         category:"Startup",
-        author:"Alex Bennett",
+        author:"Krish Satasiya",
         author_img:profile_icon
     },
 ]
