@@ -4,7 +4,7 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import { toast } from 'react-toastify';
 
-const page = () => {
+const Page = () => {
 
   const [blogs,setBlogs] = useState([]);
 
@@ -25,7 +25,7 @@ const page = () => {
 
   useEffect(()=>{
     fetchBlogs()
-  },[])
+  },[fetchBlogs])
 
   return (
     <div className='flex-1 pt-5 px-5 sm:pt-12 sm:pl-16'>
@@ -59,4 +59,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
