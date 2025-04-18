@@ -6,7 +6,10 @@
       "use": "@vercel/next"
     }
   ],
-  "env": {
-    "MONGODB_URI": "@mongodb_uri"
-  }
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ]
 }
