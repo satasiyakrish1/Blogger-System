@@ -8,8 +8,16 @@ const Page = () => {
   const [subscriptions, setSubscriptions] = useState([]);
 
   useEffect(() => {
-    const response = await axios.get('/api/email');
-    setEmails(response.data.emails)
+    const fetchEmails = async () => {
+      try {
+        const response = await axios.get('/api/email');
+        setEmails(response.data.emails);
+      } catch (error) {
+        console.error('Error fetching emails:', error);
+      }
+    };
+
+    fetchEmails();
   }, []);
 
   const deleteEmail = async (mongoId) =>{
