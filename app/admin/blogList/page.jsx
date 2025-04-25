@@ -6,7 +6,11 @@ import { toast } from 'react-toastify';
 
 const Page = () => {
 
-  const [blogs,setBlogs] = useState([]);
+  const [blogs, setBlogs] = useState([]);
+
+  useEffect(() => {
+    fetchBlogData();
+  }, [fetchBlogData]);
 
   const fetchBlogs = async () => {
     const response = await axios.get('/api/blog');
@@ -59,4 +63,4 @@ const Page = () => {
   )
 }
 
-export default Page
+export default Page;
