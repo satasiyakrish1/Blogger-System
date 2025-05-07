@@ -5,7 +5,7 @@ import React, { useEffect, useState } from 'react'
 import { toast } from 'react-toastify';
 
 const Page = () => {
-  const [subscriptions, setSubscriptions] = useState([]);
+  const [emails, setEmails] = useState([]);
 
   useEffect(() => {
     const fetchEmails = async () => {

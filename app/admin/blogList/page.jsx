@@ -8,10 +8,6 @@ const Page = () => {
 
   const [blogs, setBlogs] = useState([]);
 
-  useEffect(() => {
-    fetchBlogData();
-  }, [fetchBlogData]);
-
   const fetchBlogs = async () => {
     const response = await axios.get('/api/blog');
     setBlogs(response.data.blogs);
@@ -29,7 +25,7 @@ const Page = () => {
 
   useEffect(()=>{
     fetchBlogs()
-  },[fetchBlogs])
+  },[])
 
   return (
     <div className='flex-1 pt-5 px-5 sm:pt-12 sm:pl-16'>
